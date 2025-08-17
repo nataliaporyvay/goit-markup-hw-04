@@ -153,7 +153,16 @@ p {
     color: #ffffff;
     text-align: center;
     padding: 188px 0;
+    max-width: 1440px;
 
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+ url('../images/hero-bg.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+
+ color: #ffffff;
+ text-align: center;
 }
 
 .hero-title {
@@ -185,6 +194,7 @@ p {
     letter-spacing: 0.04em;
     margin: 0 auto;
 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
