@@ -215,7 +215,12 @@ url('../images/people-office.jpg');
     text-align: center;
     color: #2e2f42;
 }
-
+.feature-icon svg {
+    display: block;
+    margin: 0 auto 16px;
+    width: 64px;
+    height: 64px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
