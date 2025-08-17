@@ -1,0 +1,392 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+
+/* reset */
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* common */
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header */
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+
+}
+
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-link {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+
+/* Hero */
+.section {
+    padding: 188px 0;
+}
+
+.hero {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+    padding: 188px 0;
+
+}
+
+.hero-title {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    margin: 0 auto 48px;
+    letter-spacing: 0.02em;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--accent-color, #4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/* Features */
+.features {
+    padding: 120px 0;
+}
+
+.features-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+
+
+/* Team Section */
+.team {
+    background-color: #f4f4fd;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+/* Список учасників */
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.team-item {
+width: calc((100% - 48px) / 3);
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.team-member p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
+
+/* Card */
+.team-member {
+    background-color: #ffffff;
+    width: 264px;
+    border-radius: 0 0 4px 4px;
+  
+    align-items: center;
+
+}
+
+
+.team-info {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.02em;
+}
+
+
+.team-role {
+    line-height: 1.5;
+}
+
+.team-photo {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    display: block;
+    height: auto;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 120px 0;
+}
+
+
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+    background-color: #fff;
+}
+
+.portfolio-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+
+
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0 0 8px;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    padding: 100px 0;
+}
+
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #4d5ae5;
+    line-height: 1.17;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer-logo-accent {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+    font-weight: 400;
+    margin: 0;
+}
