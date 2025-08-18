@@ -271,99 +271,91 @@ url('../images/people-office.jpg');
 
 
 /* Team Section */
+/* Контейнер секції */
 .team {
-    background-color: #f4f4fd;
-    text-align: center;
-    padding: 120px 0;
+    padding: 60px 0;
+    background-color: #f9f9fb;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Заголовок секції */
 .section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 600;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
 }
 
-/* Список учасників */
+/* Список команди */
 .team-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.team-item {
-width: calc((100% - 48px) / 3);
-    border-radius: 0 0 4px 4px;
-    background-color: #fff;
-}
-
-.team-member h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-
-.team-member p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-}
-
-/* Card */
+/* Картка учасника */
 .team-member {
-    background-color: #ffffff;
     width: 264px;
+    background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-  
-    align-items: center;
-
-}
-.team-member:first-child {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    /* Встановлює радіус кутів */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.team-info {
-    padding: 32px 0;
-    text-align: center;
-}
-
-.team-name {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #2e2f42;
-    margin: 0 0 8px 0;
-    letter-spacing: 0.02em;
-}
-
-
-.team-role {
-    line-height: 1.5;
-}
-
+/* Фото учасника */
 .team-photo {
     width: 100%;
     border-radius: 4px 4px 0 0;
     display: block;
     height: auto;
 }
-.team-social {
-    margin-top: 24px;
+
+/* Контейнер з інформацією */
+.team-info {
+    padding: 32px 0;
+    text-align: center;
 }
 
+/* Ім'я та роль */
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2f42;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-role {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Соцмережі */
 .social-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     padding: 0;
+    margin-top: 24px;
     list-style: none;
 }
 
@@ -389,9 +381,9 @@ width: calc((100% - 48px) / 3);
 }
 
 .social-icon {
-    fill: var(--icon-color, #f4f4fd);
     width: 16px;
     height: 16px;
+    fill: var(--icon-color, #f4f4fd);
 }
 /* portfolio */
 
