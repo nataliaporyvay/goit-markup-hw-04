@@ -215,11 +215,21 @@ url('../images/people-office.jpg');
     text-align: center;
     color: #2e2f42;
 }
-.feature-icon svg {
+.feature-icon-box svg {
     display: block;
     margin: 0 auto 16px;
     width: 64px;
     height: 64px;
+}
+.feature-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 .visually-hidden {
     position: absolute;
