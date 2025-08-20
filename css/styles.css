@@ -363,7 +363,7 @@ url('../images/people-office.jpg');
     width: 40px;
     height: 40px;
 }
-.social-link {
+.sociall-link {
     width: 100%;
     height: 100%;
     background-color: var(--primary-color, #4d5ae5);
@@ -374,8 +374,8 @@ url('../images/people-office.jpg');
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.sociall-link:hover,
+.sociall-link:focus {
     background-color: #404bbf;
 }
 
